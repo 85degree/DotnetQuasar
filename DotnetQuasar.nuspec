@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>DotnetQuasar</id>
+    <version>3.0.0</version>
+    <description>
+      ASP.NET Core + Quasar starter project
+      The repository contains an ASP.NET Core + Quasar starter template. The template runs on ASP.NET Core 3.0.
+    </description>
+    <authors>Abdul Gaffur A Dama</authors>
+    <projectUrl>https://github.com/apung/DotnetQuasar</projectUrl>
+    <license type="expression">MIT</license>
+    <packageTypes>
+      <packageType name="Template" />
+    </packageTypes>
+  </metadata>
+  <files>
+    <file
+      src="**"
+      exclude="**/node_modules/**;**/bin/**;**/obj/**;**/.vs/**;**/.vscode/**;**/ClientApp/dist/**;**/wwwroot/dist/**;content/Directory.Build.*;**/.git/**"
+      target="Content" />
+  </files>
+</package>
