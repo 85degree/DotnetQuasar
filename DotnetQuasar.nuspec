@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>Apung.DotnetQuasar</id>
+    <version>3.0.1-alpha</version>
+    <title>Dotnet Quasar</title>
+    <authors>Abdul Gaffur A Dama</authors>
+    <owners>Abdul Gaffur A Dama</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <projectUrl>https://github.com/apung/DotnetQuasar</projectUrl>
+    <description>
+      ASP.NET Core with Quasar starter project
+      The repository contains an ASP.NET Core with Quasar starter template. The template runs on ASP.NET Core 3.0.
+    </description>
+    <releaseNotes></releaseNotes>
+    <copyright>Copyright 2019</copyright>
+    <tags>Vue Quasar</tags>
+    <packageTypes>
+      <packageType name="Template" />
+    </packageTypes>
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.0">
+        <dependency id="VueCliMiddleware" version="3.0.0" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file
+      src="**"
+      exclude="**/node_modules/**;**/bin/**;**/obj/**;**/.vs/**;**/.vscode/**;**/ClientApp/dist/**;**/wwwroot/dist/**;content/Directory.Build.*;**/.git/**"
+      target="Content" />
+  </files>
+</package>
