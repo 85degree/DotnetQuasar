@@ -27,8 +27,8 @@
   </metadata>
   <files>
     <file
-      src="**"
-      exclude="**/node_modules/**;**/bin/**;**/obj/**;**/.vs/**;**/.vscode/**;**/ClientApp/dist/**;**/wwwroot/dist/**;content/Directory.Build.*;**/.git/**"
+      src="**;.gitignore"
+      exclude="**/node_modules/**;**/bin/**;**/obj/**;**/.vs/**;**/.vscode/**;**/ClientApp/dist/**;**/wwwroot/dist/**;content/Directory.Build.*;**/.git/**;**.nuspec;**.sln;**/yarn.lock"
       target="Content" />
   </files>
 </package>
